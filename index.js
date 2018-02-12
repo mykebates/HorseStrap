@@ -14,11 +14,11 @@ program
     .parse(process.argv);
 
 if (program.bareback) {
-    download('mykebates/HorseStrap', './', function(err) {
+    download('mykebates/HorseStrap-StaticSiteBuilder', './', function(err) {
         console.log(err ? 'Error' : 'Success')
     });
 } else {
-    download('mykebates/HorseStrap', './', function(err) {
-        console.log(err ? 'Error' : 'Success')
+    download('mykebates/HorseStrap-StaticSiteBuilder', './', function(err) {
+        console.log(err ? 'Error' : "HorseStrap installed. Run 'npm install' to finish.")
     });
 }

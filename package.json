@@ -1,0 +1,16 @@
+{
+  "name": "horsestrap",
+  "version": "1.0.0",
+  "description": "An oppionated front-end stub that eNEIGHbles rapid but sturdy development.",
+  "main": "index.js",
+  "author": "Myke Bates",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^5.1.0",
+    "simple-git": "^1.89.0"
+  },
+  "preferGlobal": true,
+  "bin": "./index.js"
+}
